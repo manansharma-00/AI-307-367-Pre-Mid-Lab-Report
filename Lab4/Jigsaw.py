@@ -115,5 +115,5 @@ def solve_puzzle(image_path, grid_size=4):
     display_puzzle(state_space_image, title="State Space Final Arrangement")
     display_puzzle(annealed_image, title="Simulated Annealing Final Arrangement")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     solve_puzzle('input_image.png', grid_size=4)
